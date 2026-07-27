@@ -133,11 +133,11 @@ def performDuplicateRemoval(directoryPath, receiver):
   status = MailSender.sendMail(receiver, logPath, body)
 
   if status:
-      Logger.writeLog(logPath, border)
       Logger.writeLog(logPath, "Email Status: SUCCESS")
-  else:
       Logger.writeLog(logPath, border)
+  else:
       Logger.writeLog(logPath, "Email Status: FAILED")
+      Logger.writeLog(logPath, border)
       
 
 def main():

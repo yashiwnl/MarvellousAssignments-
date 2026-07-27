@@ -1,0 +1,34 @@
+Log Generated At : Mon Jul 27 13:41:06 2026
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+              Disk Sanitizer Script                  
+-----------------------------------------------------------------
+
+Directory Scanned : D:\Yash\Coding\Marvellus Assignments\Assignment 33\test
+Receiver Email : pekkapowerofcoc@gmail.com
+Scanning Started : Mon Jul 27 13:41:06 2026
+Scanning Completed : Mon Jul 27 13:41:06 2026
+-----------------------------------------------------------------
+Total Files Scanned : 5
+Duplicate Files Found : 3
+Duplicate Files Deleted : 3
+-----------------------------------------------------------------
+Duplicate Checksums
+-----------------------------------------------------------------
+Checksum : c6cc803b5e1e87ebfad9f02518cc1a59
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\FileUtils copy 2.py
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\FileUtils copy.py
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\FileUtils.py
+-----------------------------------------------------------------
+Checksum : 17c6b7eeaa270134e01cab42c8e99853
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\Logger copy.py
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\Logger.py
+-----------------------------------------------------------------
+Deleted Files: 
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\FileUtils copy.py
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\FileUtils.py
+D:\Yash\Coding\Marvellus Assignments\Assignment 33\test\Logger.py
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Email Status: SUCCESS

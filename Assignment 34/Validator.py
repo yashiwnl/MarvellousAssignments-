@@ -1,0 +1,38 @@
+import os
+
+def validateDirectory(path):
+  if not os.path.exists(path):
+    return False
+
+  if not os.path.isdir(path):
+    return False
+
+  if not os.access(path, os.R_OK):
+    return False  
+
+  return True
+
+
+def validateProcessName(pname):
+
+  if pname == "":
+    return False
+
+  if pname.isspace():
+    return False
+
+def validateEmail(email):
+
+  if email.count("@") != 1:
+    return False
+
+  email_parts = email.split("@")
+
+  if email_parts[0] == "":
+    return False
+
+  if email_parts[1].count(".") < 1:
+    return False
+
+  return True
+
